@@ -11,5 +11,8 @@ class Driver {
 }
 
 class Route {
-  
+  constructor(beginningLocation, ) {
+    this.beginningLocation = beginningLocation;
+    
+  }
 }
