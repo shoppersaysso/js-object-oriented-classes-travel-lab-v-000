@@ -9,3 +9,7 @@ class Driver {
     return parseInt(total);
   }
 }
+
+class Route {
+  
+}
