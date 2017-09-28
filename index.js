@@ -5,7 +5,7 @@ class Driver {
   }
 
   startDate(dateObj) {
-    dateObj = new Date();
+    startDate = new Date(dateObj);
   }
 
 }
