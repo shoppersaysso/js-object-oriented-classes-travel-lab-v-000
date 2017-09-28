@@ -18,11 +18,10 @@ class Route {
     this.endingLocation = endingLocation;
   }
   blocksTravelled(){
-
+  }
 
     avenueToInteger(avenue){
     return eastWest.indexOf(avenue)
   }
-    
-  }
+
 }
