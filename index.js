@@ -20,7 +20,7 @@ class Route {
   blocksTravelled(){
   }
 
-    avenueToInteger(avenue){
+  avenueToInteger(avenue){
     return eastWest.indexOf(avenue)
   }
 
