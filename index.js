@@ -1,14 +1,9 @@
 class Driver {
-  constructor(name, dateObj) {
+  constructor(name, startDate) {
     this.name = name;
-    this.dateObj = dateObj;
+    this.startDate = new Date(startDate)
   }
-
-  startDate(dateObj) {
-    startDate = new Date(dateObj);
-    return startDate;
-  }
-
+  
 }
 
 
