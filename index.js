@@ -6,7 +6,11 @@ class Driver {
 
   startDate() {
     var dateString = '';
-    var newDate = new Date();
+    var dateObj = new Date();
+    dateString += (newDate.getMonth() + 1) + "/";
+    dateString += newDate.getDate() + "/";
+    dateString += newDate.getFullYear();
+    return dateString
   }
 
 }
@@ -17,9 +21,7 @@ var dateString = "Today's date is: ";
 var newDate = new Date();
 
 // Get the month, day, and year.
-dateString += (newDate.getMonth() + 1) + "/";
-dateString += newDate.getDate() + "/";
-dateString += newDate.getFullYear();
+
 
 document.write(dateString);
 
