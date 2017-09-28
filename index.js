@@ -1,5 +1,12 @@
 class Driver {
-  constructor(name, joinDate)
+  constructor(name, dateObj) {
+    this.name = name;
+    this.joinDate = joinDate;
+  }
+
+  startDate() {
+    
+  }
   
 }
 
@@ -12,7 +19,7 @@ class Driver {
 //     this.name = name;
 //     this.email = email;
 //   }
-//  
+//
 //   sayHello() {
 //     console.log(`Hello, my name is ${this.name}`);
 //   }
