@@ -1,13 +1,13 @@
 class Driver {
   constructor(name, dateObj) {
     this.name = name;
-    this.joinDate = joinDate;
+    this.dateObj = dateObj;
   }
 
   startDate() {
-    
+
   }
-  
+
 }
 
 
