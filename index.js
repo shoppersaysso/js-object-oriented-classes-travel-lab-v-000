@@ -7,7 +7,7 @@ class Driver {
 //     const today = new Date()
 //     return (this.startDate - (today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate());
 //   }
-// }
+}
 
 
 // var dateString = '';
