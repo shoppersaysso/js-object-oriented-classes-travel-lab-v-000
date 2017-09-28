@@ -4,13 +4,16 @@ class Driver {
     this.dateObj = dateObj;
   }
 
-  startDate() {
-    var dateString = '';
-    var dateObj = new Date();
-    dateString += (newDate.getMonth() + 1) + "/";
-    dateString += newDate.getDate() + "/";
-    dateString += newDate.getFullYear();
-    return dateString;
+  startDate(dateObj) {
+    dateObj = new Date();
   }
 
 }
+
+
+// var dateString = '';
+// var dateObj = new Date();
+// dateString += (newDate.getMonth() + 1) + "/";
+// dateString += newDate.getDate() + "/";
+// dateString += newDate.getFullYear();
+// return dateString;
