@@ -3,10 +3,10 @@ class Driver {
     this.name = name;
     this.startDate = new Date(startDate)
   }
-//   yearsExperienceFromBeginningOf(){
-//     const today = new Date()
-//     return (this.startDate - (today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate());
-//   }
+  yearsExperienceFromBeginningOf(){
+    const today = new Date();
+    return (this.startDate - (today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate());
+  }
 }
 
 
